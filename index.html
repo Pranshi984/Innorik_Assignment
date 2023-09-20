@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Personalized News Hub</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Personalized News Hub</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#" id="home-link">Home</a></li>
+            <li><a href="#" id="profile-link">Profile</a></li>
+            <li><a href="#" id="saved-articles-link">Saved Articles</a></li>
+            <li><a href="#" id="logout-link">Logout</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home-section">
+            <h2>News Feed</h2>
+            <div id="news-feed">
+                <!-- News articles will be dynamically added here using JavaScript -->
+            </div>
+        </section>
+        <section id="profile-section">
+            <h2>Profile</h2>
+            <form id="interests-form">
+                <label for="interests">Select your interests:</label>
+                <select id="interests" multiple>
+                    <option value="technology">Technology</option>
+                    <option value="sports">Sports</option>
+                    <option value="politics">Politics</option>
+                    <option value="health">Health</option>
+                </select>
+                <button type="submit">Save Interests</button>
+            </form>
+        </section>
+        <section id="saved-articles-section">
+            <h2>Saved Articles</h2>
+            <ul id="saved-articles-list">
+                <!-- Saved articles will be dynamically added here using JavaScript -->
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Personalized News Hub</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
